@@ -1,0 +1,45 @@
+﻿:root {
+    margin: 0;
+    padding: 0;
+}
+
+.MainContainer {
+    min-height: 100%;
+  
+}
+
+.txtBox {
+    border-radius: 15px;
+    background-color: #8a8a8a;
+    border: solid 1px;
+    padding: 10px;
+    margin: 0px 15px;
+}
+
+    .txtBox:focus {
+        outline: solid 2px;
+        box-shadow: 2px 5px 5px black;
+    }
+
+.button {
+    padding: 15px;
+    background-color: #5096f7;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.playingField {
+}
+
+
+
+.bottomUI {
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+/*    flex-direction: row;
+*/    width: 100%;
+    background-color: #373737;
+/*    justify-content: center;
+*/}

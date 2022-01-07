@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "../Shared/_GameLayout.cshtml";
+}
+
+<div class="MainContainer">
+
+    <div class="playingField">
+        <div class="row">
+            <div class="col-6">
+                <ul id="messagesList"></ul>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="bottomUI">
+        <input id="messageInput" class="txtBox" type="text" />
+        <button class="button" id="sendButton">Send</button>
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="~/css/easterEgg.css" />
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/mainHub.js"></script>
